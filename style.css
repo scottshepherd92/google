@@ -11,23 +11,90 @@ img {
 
 form.search {
   text-align: center;
+
 }
 
 #bar {
   width: 503px;
   height: 34px;
+  padding-bottom: 0px;
+  padding-left: 16px;
+  padding-right: 9px;
+  padding-top: 5px;
+
 }
 
 div.button {
   text-align: center;
-  margin: 0.5em;
+  font-family: arial, sans-serif;
+
+
+
+}
+#button1, #button2 {
+  margin-top: 11px;
+  margin-left: 4px;
+  margin-bottom: 11px;
+  margin-right: 4px;
+  padding: 0px 16px 0px 16px;
+  border-top: 1px;
+  border-left: 1px;
+  border-bottom: 1px;
+  border-right: 1px;
+  border: 1px solid #f2f2f2;
+  height: 36px;
+  background-color: rgb(242, 242, 242);
+  font-weight: bold;
+  font-size: 13px;
+  color: #757575;
+
 }
 
+#button1:hover, #button2:hover{
+color: black;
+border-top-width: 1px;
+border-right-width: 1px;
+border-bottom-width: 1px;
+border-left-width: 1px;
+border-color: rgb(242, 242, 242);
+font-weight: bold;
+border-radius: 2px;
+-webkit-appearance: none;
 
+}
+ #gmail a{
+   font-size: 13px;
+   width: 43.3438px;
+   display: inline-block;
+   line-height: 28px;
+ }
+ #images a{
+   font-size: 13px;
+   width: 43.3438px;
+   display: inline-block;
+   line-height: 28px;
+ }
+
+ #signin a{
+  background-color: skyblue;
+  border-radius: 2px;
+  border: 1px solid rgb(66, 133, 244);
+  background-color: rgb(66, 133, 244);
+  font-weight: bold;
+  color: white;
+  text-decoration-color: white;
+  padding-left: 12px;
+  padding-right: 12px;
+  font-size: 13px;
+  width: 43.3438px;
+  display: inline-block;
+  line-height: 28px;
+}
 ul {
     list-style-type: none;
     padding: 0;
     overflow: hidden;
+
 
 
 }
@@ -35,4 +102,22 @@ ul {
 li {
     float: right;
     padding: 0.5em;
+    opacity: .75;
+    font-size: 13px;
+    font-family: arial, sans-serif;
+    text-align: right;
+
+}
+
+.topbar: webkit-any-link {
+  color: black;
+}
+
+a:-webkit-any-link {
+  text-decoration: none;
+  color: black;
+  appearance: none;
+
+
+
 }
